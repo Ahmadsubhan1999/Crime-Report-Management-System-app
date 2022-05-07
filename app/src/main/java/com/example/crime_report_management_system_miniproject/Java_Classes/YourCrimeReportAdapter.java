@@ -25,7 +25,7 @@ public class YourCrimeReportAdapter extends RecyclerView.Adapter<YourCrimeReport
 
     @NonNull
     @Override
-    public YourCrimeReportAdapter.YourCrimeReportViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public YourCrimeReportViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(mCtx).inflate(R.layout.list_layout_crimereport_row, parent, false);
         return new YourCrimeReportViewHolder(view);
     }
