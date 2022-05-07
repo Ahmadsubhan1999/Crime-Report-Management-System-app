@@ -60,7 +60,7 @@ public class PostActivity extends AppCompatActivity implements AdapterView.OnIte
     static final int GALLERY_REQUEST = 1;
 
 
-    String[] crimes = { "Murder", "Eve-Teasing", "Theft", "Assault", "Rape", "Kidnapping"};
+    String[] crimes = { "Murder", "Eve-Teasing", "Theft", "Assault", "Rape", "Kidnapping","Other"};
     private Spinner spin;
 
     private static final int REQUEST_CODE_PERMISSION = 2;
