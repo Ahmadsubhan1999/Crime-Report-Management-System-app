@@ -76,4 +76,16 @@ public class UIActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void contactus(View view) {
+        Intent intent = new Intent(UIActivity.this, AboutusActivity.class);
+
+        startActivity(intent);
+    }
+
+    public void aboutus(View view) {
+        Intent intent = new Intent(UIActivity.this, ContactusActivity.class);
+
+        startActivity(intent);
+    }
 }

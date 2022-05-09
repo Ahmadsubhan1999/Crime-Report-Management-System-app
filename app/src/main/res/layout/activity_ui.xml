@@ -36,24 +36,26 @@
                     android:id="@+id/line1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
+
+
                     <Button
                         android:id="@+id/pb4"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:layout_marginEnd="40dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginEnd="30dp"
                         android:background="@drawable/button_bg_round"
                         android:onClick="reportCrime"
-                        android:padding="15dp"
+                        android:padding="5dp"
                         android:text="Report a Crime" />
 
                     <Button
                         android:id="@+id/pb3"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
                         android:layout_toEndOf="@+id/pb4"
                         android:background="@drawable/button_bg_round"
                         android:onClick="fileMissingReport"
-                        android:padding="15dp"
+                        android:padding="5dp"
                         android:text="File a Missing Report" />
 
                 </RelativeLayout>
@@ -64,12 +66,13 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/line1"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="40dp">
+                    android:layout_marginTop="10dp">
+
                     <Button
                         android:id="@+id/pb2"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:layout_marginEnd="40dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginEnd="30dp"
                         android:background="@drawable/button_bg_round"
                         android:onClick="yourCrimeReports"
                         android:padding="5dp"
@@ -77,8 +80,8 @@
 
                     <Button
                         android:id="@+id/pb1"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
                         android:layout_toEndOf="@+id/pb2"
                         android:background="@drawable/button_bg_round"
                         android:onClick="yourMissingReports"
@@ -86,32 +89,64 @@
                         android:text="Your Missing Reports" />
                 </RelativeLayout>
 
+
                 <RelativeLayout
                     android:id="@+id/line3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/line2"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="40dp">
+                    android:layout_marginTop="10dp">
+
                     <Button
                         android:id="@+id/pb6"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
                         android:layout_marginEnd="40dp"
                         android:background="@drawable/button_bg_round"
                         android:onClick="yourProfile"
                         android:padding="15dp"
                         android:text="Your Profile" />
+
                     <Button
                         android:id="@+id/logout"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
                         android:layout_toEndOf="@+id/pb6"
                         android:background="@drawable/button_bg_round"
                         android:onClick="Logout"
                         android:padding="15dp"
                         android:text="Logout" />
                 </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/line4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/line3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/aboudtus"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginEnd="40dp"
+                        android:background="@drawable/button_bg_round"
+                        android:onClick="aboutus"
+                        android:padding="15dp"
+                        android:text="About Us" />
+
+                    <Button
+                        android:id="@+id/contactus"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_toEndOf="@+id/aboudtus"
+                        android:background="@drawable/button_bg_round"
+                        android:onClick="contactus"
+                        android:padding="15dp"
+                        android:text="Contact Us" />
+                </RelativeLayout>
+
             </RelativeLayout>
 
         </RelativeLayout>
